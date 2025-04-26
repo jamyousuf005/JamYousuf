@@ -2,6 +2,7 @@ import React from 'react'
 import { RiFirebaseFill, RiJavascriptFill, RiJavascriptLine, RiReactjsFill, RiReactjsLine } from 'react-icons/ri'
 import { TbBrandTailwind } from 'react-icons/tb'
 import { motion } from 'framer-motion'
+import { RxFrame, RxFramerLogo } from 'react-icons/rx'
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -49,6 +50,15 @@ const Technologies = () => {
                          variants={iconVariants(5)}
                         className='p-4'>
                         <RiJavascriptFill className='text-7xl text-yellow-300' />
+                    </motion.div>
+           
+                   
+                    <motion.div
+                     initial="initial"
+                     animate="animate"
+                     variants={iconVariants(4)}
+                    className='p-4'>
+                    <RxFramerLogo  className='text-7xl text-white' />
                     </motion.div>
 
                     <motion.div
