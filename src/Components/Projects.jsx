@@ -44,7 +44,7 @@ const Projects = () => {
                    GitHub : <a className='pl-1' href={project.gitHub}> <FaGithubSquare className='text-2xl '/></a>   
                     </div>
                     
-                    <div className='mt-4 text-gray-300 font-bold'>Live :
+                    <div className='mt-4 text-gray-300 font-semibold'>Live :
                       <a
                        target="_blank"
                       rel="noopener noreferrer"
